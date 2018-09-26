@@ -23,7 +23,7 @@
   "devDependencies": {
     "@wisersolutions/eslint-config": "^1.0.3",
     "@wisersolutions/eslint-formatter-idea": "^1.0.2",
-    "@wisersolutions/transpile-js": "^0.0.2",
+    "@wisersolutions/transpile-js": "^0.0.3",
     "babel-eslint": "^9.0.0",
     "babel-jest": "^23.6.0",
     "eslint": "^5.6.0",
