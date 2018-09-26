@@ -1,0 +1,14 @@
+{
+  "extends": "@wisersolutions",
+  "overrides": [
+    {
+      "files": ["src/**/*.test.js"],
+      "env": {
+        "jest": true
+      },
+      "rules": {
+        "no-sparse-arrays": "off"
+      }
+    }
+  ]
+}

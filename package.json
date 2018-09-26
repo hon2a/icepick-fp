@@ -1,0 +1,43 @@
+{
+  "name": "@hon2a/icepick-fp",
+  "version": "0.0.0",
+  "description": "Wrapper around the popular Icepick library providing a FP contract.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hon2a/icepick-fp"
+  },
+  "author": "Jan Konopásek",
+  "license": "MIT",
+  "main": "./lib/index.js",
+  "module": "./es/index.js",
+  "files": [
+    "/es",
+    "/lib"
+  ],
+  "scripts": {
+    "format": "prettier --write \"src/**/*.js\" --loglevel warn",
+    "lint": "eslint -f @wisersolutions/eslint-formatter-idea ./src",
+    "test": "jest 'src/'",
+    "prepublishOnly": "transpile-js"
+  },
+  "devDependencies": {
+    "@wisersolutions/eslint-config": "^1.0.3",
+    "@wisersolutions/eslint-formatter-idea": "^1.0.2",
+    "@wisersolutions/transpile-js": "^0.0.2",
+    "babel-eslint": "^9.0.0",
+    "babel-jest": "^23.6.0",
+    "eslint": "^5.6.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "jest": "^23.6.0",
+    "prettier": "^1.14.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0",
+    "icepick": "^2.3.1",
+    "lodash.topath": "^4.5.2",
+    "lodash.initial": "^4.1.1",
+    "lodash.last": "^3.0.0",
+    "lodash.reduce": "^4.6.0"
+  }
+}
