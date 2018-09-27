@@ -18,7 +18,8 @@
     "format": "prettier --write \"src/**/*.js\" --loglevel warn",
     "lint": "eslint -f @wisersolutions/eslint-formatter-idea ./src",
     "test": "jest 'src/'",
-    "prepublishOnly": "transpile-js"
+    "build": "transpile-js",
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "@wisersolutions/eslint-config": "^1.0.3",
