@@ -21,8 +21,8 @@ import assocIn from '@hon2a/icepick-fp/assocIn'
 ### Contents
 
 Wrappers are provided just for the most often used Icepick transforms for now:
-`assocIn` (and `setIn` alias), `getIn`, `updateIn`, and `merge`. They're enhanced
-with `lodash.topath` to accept `String` paths:
+`assocIn` (and `setIn` alias), `getIn`, `updateIn`, `assign`, and `merge`. They're
+enhanced with `lodash.topath` to accept `String` paths:
 
 ```javascript
 getIn('a.b[0].c')({ a: { b: [{ c: 42 }] } })
