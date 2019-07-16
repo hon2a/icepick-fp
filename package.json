@@ -23,18 +23,18 @@
   },
   "devDependencies": {
     "@wisersolutions/eslint-config": "^1.0.4",
-    "@wisersolutions/eslint-formatter-idea": "^1.0.3",
-    "@wisersolutions/transpile-js": "^0.0.4",
-    "babel-eslint": "^10.0.1",
-    "babel-jest": "^23.6.0",
-    "eslint": "^5.16.0",
-    "eslint-config-prettier": "^3.6.0",
-    "eslint-plugin-react": "^7.13.0",
-    "jest": "^23.6.0",
-    "prettier": "^1.17.1"
+    "@wisersolutions/eslint-formatter-idea": "^1.0.4",
+    "@wisersolutions/transpile-js": "^0.0.12",
+    "babel-eslint": "^10.0.2",
+    "babel-jest": "^24.8.0",
+    "eslint": "^6.0.1",
+    "eslint-config-prettier": "^6.0.0",
+    "eslint-plugin-react": "^7.14.2",
+    "jest": "^24.8.0",
+    "prettier": "^1.18.2"
   },
   "dependencies": {
-    "@babel/runtime": "^7.4.5",
+    "@babel/runtime": "^7.5.4",
     "icepick": "^2.4.0",
     "lodash.initial": "^4.1.1",
     "lodash.last": "^3.0.0",

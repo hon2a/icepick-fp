@@ -18,9 +18,9 @@ describe('merge', () => {
   })
 
   it('supports custom resolver', () => {
-    const resolver = (targetVal, sourceVal, key) => (key === 'c') ? `custom-${sourceVal}-${targetVal}` : sourceVal
+    const resolver = (targetVal, sourceVal, key) => (key === 'c' ? `custom-${sourceVal}-${targetVal}` : sourceVal)
     expect(merge({ a: { c: 'new', g: 'G' }, f: 'F' }, resolver)(dest)).toEqual({
-      a: { c: 'custom-new-C', d: 'D', g: 'G'},
+      a: { c: 'custom-new-C', d: 'D', g: 'G' },
       b: 'B',
       f: 'F'
     })
