@@ -1,6 +1,6 @@
 {
   "name": "@hon2a/icepick-fp",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "Wrapper around the popular Icepick library providing a FP contract.",
   "repository": {
     "type": "git",
