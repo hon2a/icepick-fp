@@ -1,11 +1,11 @@
 {
-  "extends": "@wisersolutions",
+  "extends": [
+    "@wisersolutions",
+    "@wisersolutions/eslint-config/jest"
+  ],
   "overrides": [
     {
       "files": ["src/**/*.test.js"],
-      "env": {
-        "jest": true
-      },
       "rules": {
         "no-sparse-arrays": "off"
       }
